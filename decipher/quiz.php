@@ -1,6 +1,6 @@
 <?php
 
-require('function.php');
+//require('function.php');
 session_start();
 //header("Location: coming_soon.php");
 // header("Location: 404.html");   //remove this when quiz start
@@ -148,12 +148,12 @@ if(($_SESSION['que'] == -1) && (isset($_SESSION['user']))){
 
 <div class="col-md-4 center"></div>
 
-            <div class="col-md-4 right"><a href="synapse.daiict.ac.in" target="_blank"><img src="assets/img/synapse.png" alt="SYNAPSE Logo" width="20%" style="padding: 10px 0px 0px 0px"></a></div>
+            <div class="col-md-4 right"><a href="http://ieee.daiict.ac.in/ifest18/" target="_blank"><img src="assets/img/logo.png" alt="ifest Logo" width="20%" style="padding: 10px 0px 0px 0px"></a></div>
          </div>
 
 
          <div style="color:white" class="col-md-offset-3 col-md-6">
-                        <h1 style="color:white" ><strong>Googlock Holmes</strong></h1>
+                        <h1 style="color:white" ><strong>i.</strong>Decipher</h1>
                             <div class="description">
                                 <p>
                                     Welcome <?php echo $user ?>
@@ -234,7 +234,7 @@ if(($_SESSION['que'] == -1) && (isset($_SESSION['user']))){
                                 <div class="btn azm-social azm-size-48 azm-r-square azm-android">
                                     
                                     
-                                        <a class="tn btn-primary btn-lg" href="https://www.facebook.com/synapsedaiict/">
+                                        <a class="tn btn-primary btn-lg" href="https://www.facebook.com/ifestdaiict/?ref=br_rs">
                                             <i class="fa fa-facebook"></i>
                                     
                                         </a>
@@ -248,13 +248,8 @@ if(($_SESSION['que'] == -1) && (isset($_SESSION['user']))){
             <div class="row" style="color: #FFFFFF";>
                 <br>
                     <p><strong>Coordinators:</strong><br>
-                    <p>Parth Patel : 9537692353<br>
-                    Umang Patel : 8141450011<br>
-               Darshan Patel : 9662475271<br>
+                    <p>Smit Jasani : 9109515599<br>
                
-                    </p>
-                    <p><strong>Developer:</strong><br>
-                   <p>Yr_Death<br>
                     </p>
 
                 
