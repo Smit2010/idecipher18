@@ -222,12 +222,9 @@
                                         <input style="border:1px solid grey" type="password" name="getpass" placeholder="Password..." class="form-password form-control" id="form-password" required>
                                     </div>
 
-                                     <?php 
-                                            $flag = "Login";
-                                        ?>
-                                      
+                                                                           
                                    
-                                    <input type="hidden" name="temp" value="<?php echo $flag ?>">      
+                                    <input type="hidden" name="temp" value="Login">      
                                     <button type="submit" class="btn">Log in</button>
                                 </form></div>
       </div>
@@ -284,12 +281,9 @@
                                         <p id="error" style="color:red"></p>
                                         <!-- <p id="error2" style="color:red"></p> -->
                                        
-                                        <?php 
-                                            $flag = "reg";
-                                        ?>
-                                      
+                                                                              
                                    
-                                    <input type="hidden" name="temp" value="<?php echo $flag ?>">      
+                                    <input type="hidden" name="temp" value="reg">      
                                     <button type="submit" id="reg" class="btn btn-success" onclick="return validation()">Register</button>
 
                                 </form>
@@ -365,6 +359,3 @@
 
 </html>
 
-<?php
-//header("Location: coming_soon.php");
-?>

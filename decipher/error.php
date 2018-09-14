@@ -136,7 +136,10 @@
 
 </div>
         <!-- Javascript -->
-
+        <footer>
+            <img src="BeFunky-collage.jpg" alt="sponsors" style="display: block; height: 120px; width:2000px; opacity: 0.85;">
+        </footer>
+       
        
        
         <!--[if lt IE 10]>
